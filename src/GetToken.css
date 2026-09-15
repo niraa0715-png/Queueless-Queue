@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+.get-token-page {
+  width: 400px;
+
+  margin: 50px auto;
+
+  padding: 30px;
+
+  background-color: white;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+  text-align: center;
+}
+
+
+/* Heading */
+
+.get-token-page h1 {
+  color: #30351c;
+
+  font-size: 28px;
+
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #555;
+
+  font-size: 14px;
+
+  margin-bottom: 25px;
+}
+
+
+/* Form */
+
+.token-form {
+  text-align: left;
+}
+
+.token-form label {
+  display: block;
+
+  font-size: 13px;
+
+  font-weight: bold;
+
+  margin-bottom: 7px;
+
+  color: #333;
+}
+
+.token-form input,
+.token-form select {
+  width: 100%;
+
+  height: 42px;
+
+  padding: 0 12px;
+
+  margin-bottom: 18px;
+
+  border: 1px solid #d9d9d0;
+
+  border-radius: 6px;
+
+  outline: none;
+
+  font-size: 13px;
+}
+
+.token-form input:focus,
+.token-form select:focus {
+  border-color: #526b25;
+}
+
+
+/* Button */
+
+.token-form button {
+  width: 100%;
+
+  height: 42px;
+
+  background-color: #526b25;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 6px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.token-form button:hover {
+  background-color: #3f521c;
+}
+
+
+/* Token Card */
+
+.token-card {
+  margin-top: 20px;
+
+  padding: 20px;
+
+  background-color: #fafaf2;
+
+  border: 1px solid #e2e3d5;
+
+  border-radius: 10px;
+}
+
+.token-card p {
+  font-size: 13px;
+
+  margin-bottom: 5px;
+}
+
+.token-card h2 {
+  color: #526b25;
+
+  font-size: 30px;
+
+  margin: 5px 0 20px;
+}
+
+
+/* Token Information */
+
+.token-info {
+  display: flex;
+
+  justify-content: space-around;
+
+  border-top: 1px solid #ddd;
+
+  border-bottom: 1px solid #ddd;
+
+  padding: 15px 0;
+}
+
+.token-info div {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+.token-info div:first-child {
+  border-right: 1px solid #ccc;
+
+  padding-right: 40px;
+}
+
+.token-info span {
+  font-size: 12px;
+
+  color: #555;
+}
+
+.token-info b {
+  font-size: 15px;
+
+  color: #222;
+}
+
+
+/* Wait Time */
+
+.wait-time {
+  margin-top: 15px !important;
+
+  color: #333;
+}

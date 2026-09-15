@@ -1,0 +1,151 @@
+.queue-management-page {
+  min-height: calc(100vh - 70px);
+  background: #f5f6f0;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.queue-management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.queue-management-header h1 {
+  margin: 0;
+  color: #283618;
+  font-size: 28px;
+}
+
+.queue-management-header p {
+  margin-top: 6px;
+  color: #666;
+}
+
+.back-button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 7px;
+  background: #4f6528;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.back-button:hover {
+  background: #283618;
+}
+
+.queue-management-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+  overflow-x: auto;
+}
+
+.queue-management-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.queue-management-card th,
+.queue-management-card td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.queue-management-card th {
+  color: #555;
+}
+
+.queue-management-card td {
+  color: #333;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.status.waiting {
+  background: #fff4d6;
+  color: #c58a00;
+}
+
+.status.completed {
+  background: #e3f3df;
+  color: #3d6b2f;
+}
+
+.status.skipped {
+  background: #f5dddd;
+  color: #a33a3a;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 7px;
+}
+
+.action-buttons button {
+  padding: 7px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.complete-button {
+  background: #dcebd5;
+  color: #3d6b2f;
+}
+
+.skip-button {
+  background: #fff0c7;
+  color: #a87900;
+}
+
+.remove-button {
+  background: #f5dddd;
+  color: #a33a3a;
+}
+
+.action-buttons button:hover {
+  opacity: 0.8;
+}
+
+.action-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.no-customers {
+  text-align: center !important;
+  padding: 40px !important;
+  color: #777 !important;
+}
+
+@media (max-width: 700px) {
+  .queue-management-page {
+    padding: 20px;
+  }
+
+  .queue-management-header {
+    align-items: flex-start;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .queue-management-header h1 {
+    font-size: 24px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+}

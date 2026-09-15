@@ -1,0 +1,162 @@
+.live-queue-page {
+  min-height: 100vh;
+  background: #f5f6f0;
+  padding: 45px 20px;
+  text-align: center;
+}
+
+.live-queue-page h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #283618;
+}
+
+.queue-subtitle {
+  margin-top: 8px;
+  color: #666;
+  font-size: 15px;
+}
+
+
+/* NOW SERVING */
+
+.serving-card {
+  margin: 35px auto 20px;
+}
+
+.serving-card p {
+  margin: 0 0 5px;
+  font-size: 15px;
+  color: #444;
+}
+
+.serving-card h2 {
+  margin: 0;
+  font-size: 36px;
+  color: #4f6528;
+}
+
+
+/* YOUR TOKEN CARD */
+
+.your-token-card {
+  width: 500px;
+  max-width: 90%;
+  margin: 0 auto 35px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.token-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+}
+
+.token-details > div {
+  width: 50%;
+}
+
+.token-details span {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.token-details h2 {
+  margin: 0;
+  font-size: 25px;
+  color: #4f6528;
+}
+
+.divider {
+  width: 1px !important;
+  height: 45px;
+  background: #ddd;
+}
+
+.wait-time {
+  border-top: 1px solid #eee;
+  padding: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.wait-time b {
+  margin-left: 5px;
+  color: #222;
+}
+
+
+/* QUEUE LIST */
+
+.queue-list {
+  width: 500px;
+  max-width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+.queue-list h3 {
+  font-size: 17px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.queue-row {
+  background: white;
+  min-height: 48px;
+  padding: 0 15px;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.queue-token {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.queue-token b {
+  color: #333;
+}
+
+.queue-row > span {
+  font-size: 13px;
+  color: #555;
+}
+
+.your-row {
+  background: #f2f5df;
+  border: 1px solid #b7c28a;
+}
+
+.your-row > span {
+  color: #4f6528;
+  font-weight: bold;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .live-queue-page {
+    padding: 35px 15px;
+  }
+
+  .your-token-card,
+  .queue-list {
+    max-width: 100%;
+  }
+
+  .serving-card h2 {
+    font-size: 32px;
+  }
+}
