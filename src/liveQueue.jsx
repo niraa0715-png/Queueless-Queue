@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./LiveQueue.css";
+import "./liveQueue.css";
 
 function LiveQueue() {
   const [customers, setCustomers] = useState([]);

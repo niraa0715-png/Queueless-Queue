@@ -29,7 +29,7 @@ function SignIn() {
 
       <div className="signin-card">
 
-        <h1>QueueLess</h1>
+        <h2>QueueLess Queue</h2>
 
         <h2>Sign In</h2>
 

@@ -22,7 +22,7 @@ function AdminLogin() {
 
       <div className="admin-login-card">
 
-        <h1>QueueLess</h1>
+        <h2>QueueLess Queue</h2>
 
         <h2>Admin Login</h2>
 
